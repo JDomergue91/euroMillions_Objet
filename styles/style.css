@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(1,32,96,255);
+}
+
+.logo-euro_main {
+    
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 500px;
+      
+}
+
+.block-numeros {
+    display: flex;
+    justify-content: center;
+}
+
+.numeros-euromillions {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    border-radius: 10px;
+    
+}
+
+.ronds { 
+    border-radius: 30px;
+    background-color: rgba(1,32,96,255);
+}
+
+
+
+.etoiles {
+    background-image: url('../image/euml-star.svg');
+    background-size: cover;
+}
+
+.numeros {
+    margin: 10px 5px; 
+    width: 60px;
+    height: 60px;  
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 700;
+    visibility: hidden;
+}
+
+
+
+
